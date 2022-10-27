@@ -12,6 +12,18 @@ body {
   font-stretch: normal;
   line-height: 1.6;
 }
+h1 {
+  font-size: 50px;
+}
+h2 {
+  font-size: 32px;
+}
+h3 {
+  font-size: 22px;
+}
+p {
+  font-size: 14px;
+}
 h1, h2, h3 {
   line-height: 1;
 }
