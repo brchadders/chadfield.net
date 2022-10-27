@@ -2,7 +2,7 @@
 
 * My little site, started in October 2022.
 
-* Hosted by mystic-beasts.com using a smol VPS and nginx. 
+* Hosted by mythic-beasts.com using a smol VPS and nginx. 
 
 * SSL courtesy of certbot/Let's Encrypt
 
