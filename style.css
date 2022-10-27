@@ -1,0 +1,41 @@
+body {
+  margin: 1em auto;
+  padding: 0.62em;
+  background-color:rgba(255,0,0,0.3);
+  font-style: normal;
+  font-weight: normal;
+  font-size-adjust: none;
+  font-family: Arial,Helvetica,sans-serif;
+  max-width: 40em;
+  font-variant: normal;
+  font-size: 1.2em;
+  font-stretch: normal;
+  line-height: 1.6;
+}
+h1, h2, h3 {
+  line-height: 1;
+}
+pre { font-family: monospace; 
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li {
+  float: right;
+}
+li a {
+  display: block;
+  padding: 6px;
+  background-color: #dddddd;
+}
+footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+@media print {
+  body { max-width: none;
+}
