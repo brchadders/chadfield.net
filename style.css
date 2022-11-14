@@ -28,6 +28,7 @@ h1, h2, h3 {
   line-height: 1;
 }
 pre { font-family: monospace; 
+  font-size: 15px
 }
 ul {
   list-style-type: none;
@@ -42,6 +43,29 @@ li a {
   display: block;
   padding: 6px;
   background-color: #dddddd;
+}
+.command {
+  font-family: "Courier Prime", monospace;
+  display: block;
+  background: #443e3e;
+  text-shadow: 0 1px black;
+  padding: 1rem;
+  border-top: 9px solid #85898c;
+  border-left: 9px solid #85898c;
+  border-bottom: 9px solid #2a2222;
+  border-right: 9px solid #2a2222;
+  border-radius: 3px;
+  color: #eee;
+}
+.command::before {
+  content: "$ ";
+}
+body {
+  background: #ccc;
+  font-family: system-ui;
+  line-height: 1.4;
+  max-width: 500px;
+  margin: 1.5rem;
 }
 footer {
   background-color: #f1f1f1;
